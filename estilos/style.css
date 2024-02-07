@@ -8,23 +8,17 @@
 
 body{
     background-color: rgb(192, 192, 192);
+    background: url(../imagens/photo-1634017839464-5c339ebe3cb4.avif);
+    background-size: cover;
+    background-position: top bottom;
+    background-repeat: no-repeat;
+
 }
 
 header{
-    width: 100vw;
+    width: 96vw;
     height: 100vh;
-
 }
-
-header > h1{
-    background-color: aqua;
-    text-align: center;
-    padding: 100px;
-    font-size: 4em;
-    
-
-}
-
 
 nav{
     background-color: yellow;
@@ -38,4 +32,31 @@ nav > button {
     margin: 5px;
     background-color: red;
 }
+
+header > h1{
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+    padding-left: 3%;
+    font-size: 4em;
+    
+
+}
+
+main{
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: -450px;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+}
+
+
+
 
