@@ -20,8 +20,20 @@ header{
     height: 100vh;
 }
 
+form{
+    background-color: gray;
+    text-align: center;
+    padding: 50px;
+}
+
+form > input{
+    width: 230px;
+    height: 30px;
+}
+
 nav{
     background-color: yellow;
+    height: 80px;
 }
 
 nav > button {
@@ -45,16 +57,31 @@ header > h1{
 
 main{
     background-color: white;
-    width: 350px;
-    height: 500px;
     margin: auto;
     margin-bottom: 50px;
-    margin-top: -450px;
 }
 
-img{
-    width: 350px;
-    height: 200px;
+section{
+    background-color: gray;
+    width: 96vw;
+    height: 500px;
+    display: block;
+    margin: auto;
+    
+
+}
+
+div#redessociais{
+    background-color: violet;
+}
+
+article{
+    background-color: rgb(83, 83, 83);
+    width: 96vw;
+    height: 500px;
+    display: block;
+    margin: auto;
+
 }
 
 
